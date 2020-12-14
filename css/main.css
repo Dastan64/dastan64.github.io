@@ -963,6 +963,10 @@ li {
   color: #b80000;
 }
 
+.about .extract-container {
+  display: inline-block;
+}
+
 .about .typed-cursor {
   font-size: 50px;
   color: #000;
@@ -1349,6 +1353,12 @@ li {
 @media screen and (max-width: 767px) {
   .portfolio__grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about .extract-container {
+    display: block;
   }
 }
 

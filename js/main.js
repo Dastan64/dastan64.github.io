@@ -1266,7 +1266,7 @@ $(document).ready(function () {
   });
 });
 var options = {
-  strings: ["Качество", "Детали", "Творчество"],
+  strings: ["Качество", "Детали", "Сроки"],
   typeSpeed: 40,
   backSpeed: 40,
   loop: true
