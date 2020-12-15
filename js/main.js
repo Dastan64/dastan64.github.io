@@ -1250,7 +1250,7 @@ for (var i = 0; i < accordionBtn.length; i++) {
 
 
 $(document).ready(function () {
-  $(".menu__link").on("click", function (event) {
+  $(".menu__link, .mobile-menu__link").on("click", function (event) {
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
