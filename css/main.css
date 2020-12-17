@@ -1037,6 +1037,7 @@ li {
 .portfolio__grid .overlay__descr {
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .portfolio__grid .overlay__link {
@@ -1341,6 +1342,20 @@ li {
 @media screen and (max-width: 640px) {
   .about .extract-container {
     display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .portfolio__grid .overlay__descr {
+    font-size: 14px;
+  }
+
+  .portfolio__grid .overlay__heading {
+    font-size: 20px;
+  }
+
+  .portfolio__grid .overlay__link {
+    padding: 10px;
   }
 }
 
