@@ -1324,6 +1324,14 @@ li {
     margin-top: 60px;
   }
 
+  .portfolio__grid .overlay__descr {
+    font-size: 14px;
+  }
+
+  .portfolio__grid .overlay__heading {
+    font-size: 20px;
+  }
+
   .work .grid {
     grid-template-columns: 1fr;
   }
@@ -1346,14 +1354,6 @@ li {
 }
 
 @media screen and (max-width: 576px) {
-  .portfolio__grid .overlay__descr {
-    font-size: 14px;
-  }
-
-  .portfolio__grid .overlay__heading {
-    font-size: 20px;
-  }
-
   .portfolio__grid .overlay__link {
     padding: 10px;
   }
