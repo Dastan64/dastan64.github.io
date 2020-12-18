@@ -938,7 +938,7 @@ li {
 }
 
 .about__subheading:not(:first-child) {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .about .extract {
