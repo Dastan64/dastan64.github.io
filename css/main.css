@@ -849,18 +849,21 @@ template {
 
 @font-face {
   font-family: "Muller Regular";
+  font-display: swap;
   src: url(../fonts/MullerRegular.woff) format("woff"), url(../fonts/MullerRegular.woff2) format("woff2");
   /* все современные браузеры, IE9+ */
 }
 
 @font-face {
   font-family: "Muller Medium";
+  font-display: swap;
   src: url(../fonts/MullerMedium.woff) format("woff"), url(../fonts/MullerMedium.woff2) format("woff2");
   /* все современные браузеры, IE9+ */
 }
 
 @font-face {
   font-family: "Gotham Pro Bold";
+  font-display: swap;
   font-weight: bold;
   src: url(../fonts/GothamPro-Bold.woff) format("woff"), url(../fonts/GothamPro-Bold.woff2) format("woff2");
   /* все современные браузеры, IE9+ */
